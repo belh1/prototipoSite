@@ -1,0 +1,1263 @@
+#ajuda {
+  position: relative;
+ 
+  text-align: center;
+ 
+  margin-left: -90px;
+}
+
+
+
+.PerguntaF_container{
+  margin-left: 10%;
+}
+
+.PerguntaF_container p{
+  text-align: justify;
+  font-size: 1.5em;
+}
+
+.sectionP__title {
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+  margin-top: -20px;
+}
+
+.perguntas__lista {
+  max-width: 00px;
+  margin: 10px auto;
+  margin-top: 50px;
+}
+
+.pergunta {
+  background-color: #ffffff;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(75, 198, 205, 0.929);
+  transition: background-color 0.3s, transform 0.3s;
+  flex-basis: calc(50% - 10px);
+  margin-bottom: 20px;
+}
+
+.pergunta:hover {
+  background-color: #ffffff66;
+  transform: translateY(-3px);
+}
+
+.pergunta__titulo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.pergunta__titulo h3 {
+  margin: 0;
+  font-size: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+.pergunta__titulo span {
+  font-size: 20px;
+  color: #5f12ef;
+}
+
+.pergunta__resposta {
+  padding: 0 15px 15px 15px;
+  margin: 0;
+  font-size: 10px;
+  color: #555;
+}
+
+
+.duvida {
+  width: 30px;
+  height: auto;
+  margin-right: 12px;
+}
+
+
+
+.perguntas__lista{
+  margin-left: 100px;
+}
+
+
+.categoria-buttons {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.categoria-buttons button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #30947c;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.categoria-buttons button:hover {
+  background-color: #267e68;
+  transform: scale(1.1);
+}
+
+
+.categoria-buttons button.active {
+  transform: scale(1.1);
+}
+
+img{
+  height: auto;
+  width: 80%;
+}
+
+@media only screen and (min-width: 20px) and (max-width: 570px){
+  #ajuda {
+    margin-top: 60%;
+    background-color: rgba(255, 255, 255, 0.55);
+    padding: 120px;
+  }
+  .pergunta__resposta li {
+    padding: 0 15px 15px 15px;
+    margin: 0;
+    font-size: 1em;
+    color: #555;
+    text-align: justify;
+  }
+  .PerguntaF_container p1{
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  
+  .PerguntaF_container{
+    margin-left: 10%;
+  }
+  .sectionP__title {
+    font-size: 5.4rem;
+    margin-bottom: 1rem;
+    margin-top: -20px;
+    text-align: center;
+    margin-left: -4%;
+  }
+
+  .PerguntaF_container p{
+    font-size: 2rem;
+    padding: 5%;
+  }
+
+  .perguntas__lista {
+    max-width: 100%;
+    margin-top: 97px;
+    margin-left: 20px;
+    padding: 20px;
+  }
+  
+  .pergunta {
+    background-color: #ffffff;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(75, 198, 205, 0.929);
+    transition: background-color 0.3s, transform 0.3s;
+    flex-basis: calc(50% - 10px);
+    margin-bottom: 50px;
+  }
+  
+  .pergunta:hover {
+    background-color: #ffffff66;
+    transform: translateY(-3px);
+  }
+  
+  .pergunta__titulo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    cursor: pointer;
+    
+  
+  }
+  
+  .pergunta__titulo h3 {
+    margin: 0;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .pergunta__titulo span {
+    font-size: 3rem;
+    color: #5f12ef;
+  }
+  
+  .pergunta__resposta {
+    padding: 0 15px 15px 15px;
+    margin: 0;
+    font-size: 3rem;
+    color: #555;
+  }
+  
+ 
+  .duvida {
+    width: 80px;
+    height: auto;
+    margin-right: 12px;
+  }
+  
+
+  
+  .perguntas__lista{
+    margin-left: -45px;
+  }
+  
+
+  .categoria-buttons {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    margin-left: -13%;
+  }
+  
+  .categoria-buttons button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #30947c;
+    color: #fff;
+    font-size: 2.9rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 3%;
+  }
+  
+  .categoria-buttons button:hover {
+    background-color: #267e68;
+  }
+}
+
+
+@media only screen and (min-width: 570px) and (max-width: 776px) {
+  #ajuda {
+    margin-top: 35%;
+    background-color: rgba(255, 255, 255, 0.55);
+    padding: 120px;
+  }
+  
+  .PerguntaF_container{
+    margin-left: 10%;
+  }
+  .PerguntaF_container p1{
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .sectionP__title {
+    font-size: 5rem;
+    margin-bottom: 1rem;
+    margin-top: -20px;
+    text-align: center;
+    margin-left: -4%;
+  }
+
+  .PerguntaF_container p{
+    font-size: 2.2rem;
+    margin-left: -4%;
+    padding: 5%;
+    text-align: justify;
+  }
+
+  .perguntas__lista {
+    max-width: 100%;
+    margin-top: 97px;
+    margin-left: 11px;
+    padding: 20px;
+  }
+  
+  .pergunta {
+    background-color: #ffffff;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(75, 198, 205, 0.929);
+    transition: background-color 0.3s, transform 0.3s;
+    flex-basis: calc(50% - 10px);
+    margin-bottom: 40px;
+  }
+  
+  .pergunta:hover {
+    background-color: #ffffff66;
+    transform: translateY(-3px);
+  }
+  
+  .pergunta__titulo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    cursor: pointer;
+    
+  
+  }
+  
+  .pergunta__titulo h3 {
+    margin: 0;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .pergunta__titulo span {
+    font-size: 3rem;
+    color: #5f12ef;
+  }
+  
+  .pergunta__resposta {
+    padding: 0 15px 15px 15px;
+    margin: 0;
+    font-size: 3rem;
+    color: #555;
+  }
+
+  .pergunta__resposta li {
+    padding: 0 15px 15px 15px;
+    margin: 0;
+    font-size: 2rem;
+    color: #555;
+    text-align: justify;
+  }
+  
+ 
+  .duvida {
+    width: 80px;
+    height: auto;
+    margin-right: 12px;
+  }
+  
+  
+  
+  .perguntas__lista{
+    margin-left: -54px;
+  }
+  
+ 
+  .categoria-buttons {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    margin-left: -13%;
+  }
+  
+  .categoria-buttons button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #30947c;
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 5%;
+  }
+  
+  .categoria-buttons button:hover {
+    background-color: #267e68;
+  }
+}
+
+
+@media only screen and (min-width: 576px) and (max-width: 650px)  {
+  #ajuda{
+    height: 100%;
+    width: 130%;
+  }
+  .pergunta__titulo h3 {
+    margin: 0;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+
+}
+
+
+@media only screen and (min-width: 576px) and (max-width: 730px)  {
+  #ajuda{
+    height: 100%;
+    width: 130%;
+  }
+  .pergunta__titulo h3 {
+    margin: 0;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+}
+
+
+@media only screen and (min-width: 730px) and (max-width: 776px)  {
+  #ajuda{
+    height: 100%;
+    width: 135%;
+  }
+
+  .perguntas__lista{
+    max-width: 100%; /* Aumenta a largura máxima */
+    margin: 20px auto; /* Centraliza horizontalmente */
+    margin-top: 100px; /* Aumenta a margem superior */
+    width: 120%; /* Ajusta a largura */
+    height: 120%; /* Ajusta a altura */
+    margin-left: -3%;
+  }
+  .pergunta__titulo h3 {
+    margin: 0;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+}
+
+
+@media only screen and (min-width: 776px) and (max-width: 850px)  {
+  #ajuda{
+    width: 240%;
+    background-color: rgba(255, 255, 255, 0.55);
+    max-height: 300rem;
+    padding: 24%;
+    margin-top: 84%;
+  }
+  .PerguntaF_container p1{
+    font-size: 2.9rem;
+    text-align: center;
+  }
+  .perguntas__lista{
+    max-width: 100%; /* Aumenta a largura máxima */
+    margin: 20px auto; /* Centraliza horizontalmente */
+    margin-top: 100px; /* Aumenta a margem superior */
+    width: 120%; /* Ajusta a largura */
+    height: 120%; /* Ajusta a altura */
+    margin-left: -4%;
+  }
+
+  .PerguntaF_container{
+    margin-left: 10%;
+   
+  }
+  .sectionP__title {
+    font-size: 8rem;
+    margin-bottom: 1rem;
+    margin-top: -20px;
+    text-align: center;
+    margin-left: -4%;
+  }
+
+  .PerguntaF_container p{
+    font-size: 3rem;
+    padding: 4%;
+  }
+
+  
+  .pergunta {
+    background-color: #ffffff;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(75, 198, 205, 0.929);
+    transition: background-color 0.3s, transform 0.3s;
+    flex-basis: calc(50% - 10px);
+    margin-bottom: 50px;
+  }
+  
+  .pergunta:hover {
+    background-color: #ffffff66;
+    transform: translateY(-3px);
+  }
+  
+  .pergunta__titulo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    cursor: pointer;
+    
+  
+  }
+  
+  .pergunta__titulo h3 {
+    margin: 0;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .pergunta__titulo span {
+    font-size: 3rem;
+    color: #5f12ef;
+  }
+  
+  .duvida {
+    width: 80px;
+    height: auto;
+    margin-right: 12px;
+  }
+  
+  .categoria-buttons {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    margin-left: -13%;
+  }
+  
+  .categoria-buttons button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #30947c;
+    color: #fff;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 5%;
+  }
+  
+  .categoria-buttons button:hover {
+    background-color: #267e68;
+  }
+  .pergunta__resposta li {
+    padding: 0 15px 15px 15px;
+    margin: 0;
+    font-size: 3rem;
+    color: #555;
+    text-align: justify;
+  }
+  
+}
+
+@media only screen and (min-width:850px) and (max-width: 980px){
+  #ajuda{
+    width: 249%;
+    background-color: rgba(255, 255, 255, 0.55);
+    max-width: 300rem;
+    padding: 24%;
+    margin-top: 60%;
+    left: -10%;
+  }
+  .PerguntaF_container p1{
+    font-size: 2.9rem;
+    text-align: center;
+  }
+
+  .perguntas__lista{
+    max-width: 100%; /* Aumenta a largura máxima */
+    margin: 20px auto; /* Centraliza horizontalmente */
+    margin-top: 100px; /* Aumenta a margem superior */
+    width: 120%; /* Ajusta a largura */
+    height: 120%; /* Ajusta a altura */
+    margin-left: -4%;
+  }
+
+  .PerguntaF_container{
+    margin-left:15%;
+   
+  }
+  .sectionP__title {
+    font-size: 8rem;
+    margin-bottom: 1rem;
+    margin-top: -20px;
+    text-align: center;
+    margin-left: -4%;
+  }
+
+  .PerguntaF_container p{
+    font-size: 3rem;
+    padding: 4%;
+    margin-left: -4%;
+  }
+
+  
+  .pergunta {
+    background-color: #ffffff;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(75, 198, 205, 0.929);
+    transition: background-color 0.3s, transform 0.3s;
+    flex-basis: calc(50% - 10px);
+    margin-bottom: 50px;
+  }
+  
+  .pergunta:hover {
+    background-color: #ffffff66;
+    transform: translateY(-3px);
+  }
+  
+  .pergunta__titulo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    cursor: pointer;
+    
+  
+  }
+  
+  .pergunta__titulo h3 {
+    margin: 0;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .pergunta__titulo span {
+    font-size: 3rem;
+    color: #5f12ef;
+  }
+  
+ 
+  .duvida {
+    width: 80px;
+    height: auto;
+    margin-right: 12px;
+  }
+
+  .categoria-buttons {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    margin-left: -13%;
+  }
+  
+  .categoria-buttons button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #30947c;
+    color: #fff;
+    font-size: 2.9rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 5%;
+  }
+  
+  .categoria-buttons button:hover {
+    background-color: #267e68;
+  }
+
+  .pergunta__resposta li {
+    padding: 0 15px 15px 15px;
+    margin: 0;
+    font-size: 3rem;
+    color: #555;
+    text-align: justify;
+    margin-left: 3%;
+  }
+  
+}
+@media only screen and (min-width:980px) and (max-width: 1220px){
+  #ajuda{
+    width: 249%;
+    background-color: rgba(255, 255, 255, 0.55);
+    max-height: 300rem;
+    padding: 24%;
+    margin-top: 20%;
+    left: -10%;
+  }
+
+  .PerguntaF_container p1{
+    font-size: 2.9rem;
+    text-align: center;
+  }
+
+  .perguntas__lista{
+    max-width: 100%; /* Aumenta a largura máxima */
+    margin: 20px auto; /* Centraliza horizontalmente */
+    margin-top: 100px; /* Aumenta a margem superior */
+    width: 120%; /* Ajusta a largura */
+    height: 120%; /* Ajusta a altura */
+    margin-left: -4%;
+  }
+
+  .PerguntaF_container{
+    margin-left:15%;
+   
+  }
+  .sectionP__title {
+    font-size: 8rem;
+    margin-bottom: 1rem;
+    margin-top: -20px;
+    text-align: center;
+    margin-left: -4%;
+  }
+
+  .PerguntaF_container p{
+    font-size: 3rem;
+    padding: 4%;
+    margin-left: -4%;
+  }
+
+  
+  .pergunta {
+    background-color: #ffffff;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(75, 198, 205, 0.929);
+    transition: background-color 0.3s, transform 0.3s;
+    flex-basis: calc(50% - 10px);
+    margin-bottom: 50px;
+  }
+  
+  .pergunta:hover {
+    background-color: #ffffff66;
+    transform: translateY(-3px);
+  }
+  
+  .pergunta__titulo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    cursor: pointer;
+    
+  
+  }
+  
+  .pergunta__titulo h3 {
+    margin: 0;
+    font-size: 4rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .pergunta__titulo span {
+    font-size: 4rem;
+    color: #5f12ef;
+  }
+  
+ 
+  .duvida {
+    width: 80px;
+    height: auto;
+    margin-right: 12px;
+  }
+
+  .categoria-buttons {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    margin-left: -13%;
+  }
+  
+  .categoria-buttons button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #30947c;
+    color: #fff;
+    font-size: 2.9rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 5%;
+  }
+  
+  .categoria-buttons button:hover {
+    background-color: #267e68;
+  }
+
+  .pergunta__resposta li {
+    padding: 0 15px 15px 15px;
+    margin: 0;
+    font-size: 3rem;
+    color: #555;
+    text-align: justify;
+    margin-left: 3%;
+  }
+  
+}
+
+@media only screen and (min-width:1220px) and (max-width: 1400px){
+  #ajuda{
+    width: 300%;
+    background-color: rgba(255, 255, 255, 0.55);
+    max-height: 300rem;
+  
+    margin-top: 430px;
+    left: 10%;
+  }
+
+  .PerguntaF_container p1{
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .perguntas__lista{
+    max-width: 71%;
+    margin: 20px auto; 
+    margin-top: 100px; 
+    width: 120%; 
+    height: 120%; 
+    margin-left: 12%;
+  }
+
+  .PerguntaF_container{
+    margin-left:9%;
+   
+  }
+  .sectionP__title {
+    font-size: 10rem;
+    margin-bottom: 1rem;
+    margin-top: 156px;
+    text-align: center;
+  }
+
+  .PerguntaF_container p{
+    font-size: 2rem;
+    padding: 2%;
+  }
+
+  
+  .pergunta {
+    background-color: #ffffff;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(75, 198, 205, 0.929);
+    transition: background-color 0.3s, transform 0.3s;
+    flex-basis: calc(50% - 10px);
+    margin-bottom: 50px;
+  }
+  
+  .pergunta:hover {
+    background-color: #ffffff66;
+    transform: translateY(-3px);
+  }
+  
+  .pergunta__titulo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    cursor: pointer;
+    
+  
+  }
+  
+  .pergunta__titulo h3 {
+    margin: 0;
+    font-size: 4rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .pergunta__titulo span {
+    font-size: 3rem;
+    color: #5f12ef;
+  }
+  
+ 
+  .duvida {
+    width: 150px;
+    height: auto;
+    margin-right: 12px;
+  }
+
+  .categoria-buttons {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    margin-left: -13%;
+  }
+  
+  .categoria-buttons button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #30947c;
+    color: #fff;
+    font-size: 3.7rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 5%;
+  }
+  
+  .categoria-buttons button:hover {
+    background-color: #267e68;
+  }
+
+  .pergunta__resposta li {
+    padding: 0 15px 15px 15px;
+    margin: 0;
+    font-size: 2rem;
+    color: #555;
+    text-align: justify;
+  }
+  
+}
+
+
+@media only screen and (min-width:1400px) and (max-width:  1516px){
+  #ajuda{
+    width: 110%;
+    background-color: rgba(255, 255, 255, 0.55);
+    max-height: 300rem;
+    margin-top: 200px;
+    left: -6%;
+  }
+
+  .perguntas__lista{
+    max-width: 71%; /* Aumenta a largura máxima */
+    margin: 20px auto; /* Centraliza horizontalmente */
+    margin-top: 100px; /* Aumenta a margem superior */
+    width: 120%; /* Ajusta a largura */
+    height: 120%; /* Ajusta a altura */
+    margin-left: 12%;
+  }
+
+  .PerguntaF_container{
+    margin-left:9%;
+   
+  }
+  .sectionP__title {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    margin-top: 67px;
+    text-align: center;
+  }
+
+  .PerguntaF_container p{
+    font-size: 1.5rem;
+    padding: 2%;
+    text-align: justify;
+  }
+
+  .PerguntaF_container p1{
+    font-size: 2rem;
+    
+  }
+  
+  .pergunta {
+    background-color: #ffffff;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(75, 198, 205, 0.929);
+    transition: background-color 0.3s, transform 0.3s;
+    flex-basis: calc(50% - 10px);
+    margin-bottom: 50px;
+  }
+  
+  .pergunta:hover {
+    background-color: #ffffff66;
+    transform: translateY(-3px);
+  }
+  
+  .pergunta__titulo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    cursor: pointer;
+    
+  
+  }
+  
+  .pergunta__titulo h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .pergunta__titulo span {
+    font-size: 3rem;
+    color: #5f12ef;
+  }
+  
+  .duvida {
+    width: 60px;
+    height: auto;
+    margin-right: 12px;
+  }
+
+  .categoria-buttons {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    margin-left: -13%;
+  }
+  
+  .categoria-buttons button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #30947c;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 5%;
+  }
+  
+  .categoria-buttons button:hover {
+    background-color: #267e68;
+  }
+
+  .pergunta__resposta li {
+    padding: 0 15px 15px 15px;
+    margin: 0;
+    font-size: 1.5rem;
+    color: #555;
+    text-align: justify;
+  }
+
+}
+
+
+@media only screen and (min-width:1516px) and (max-width:  1700px){
+  #ajuda{
+    width: 110%;
+    background-color: rgba(255, 255, 255, 0.55);
+    max-height: 300rem;
+    margin-top: 200px;
+    margin-left: -14%;
+  }
+
+  .perguntas__lista{
+    max-width: 71%; /* Aumenta a largura máxima */
+    margin: 20px auto; /* Centraliza horizontalmente */
+    margin-top: 100px; /* Aumenta a margem superior */
+    width: 120%; /* Ajusta a largura */
+    height: 120%; /* Ajusta a altura */
+    margin-left: 12%;
+  }
+
+  .PerguntaF_container{
+    margin-left:9%;
+   
+  }
+  .sectionP__title {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    margin-top: 67px;
+    text-align: center;
+  }
+
+  .PerguntaF_container p{
+    font-size: 1.5rem;
+    padding: 2%;
+    text-align: justify;
+  }
+  .PerguntaF_container p1{
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .pergunta {
+    background-color: #ffffff;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(75, 198, 205, 0.929);
+    transition: background-color 0.3s, transform 0.3s;
+    flex-basis: calc(50% - 10px);
+    margin-bottom: 50px;
+  }
+  
+  .pergunta:hover {
+    background-color: #ffffff66;
+    transform: translateY(-3px);
+  }
+  
+  .pergunta__titulo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    cursor: pointer;
+  }
+  
+  .pergunta__titulo h3 {
+    margin: 0;
+    font-size: 2.6rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .pergunta__titulo span {
+    font-size: 3rem;
+    color: #5f12ef;
+    margin-left: 2%;
+  }
+  
+  .duvida {
+    width: 60px;
+    height: auto;
+    margin-right: 12px;
+  }
+
+  .categoria-buttons {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    margin-left: -13%;
+  }
+  
+  .categoria-buttons button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #30947c;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 5%;
+  }
+  
+  .categoria-buttons button:hover {
+    background-color: #267e68;
+  }
+  .pergunta__resposta li {
+    padding: 0 15px 15px 15px;
+    margin: 0;
+    font-size: 1.5rem;
+    color: #555;
+    text-align: justify;
+  }
+}
+
+
+
+
+@media only screen and (min-width:1700px) and (max-width:  1920px){
+  #ajuda{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.55);
+    max-height: 300rem;
+    margin-top: 200px;
+    margin-left: -8%;
+  }
+
+  .PerguntaF_container p1{
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .perguntas__lista{
+    max-width: 71%; 
+    margin: 20px auto; 
+    margin-top: 100px; 
+    width: 110%; 
+    height: 100%; 
+    margin-left: 10%;
+  }
+
+  .PerguntaF_container{
+    margin-left:9%;
+   
+  }
+  .sectionP__title {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    margin-top: 67px;
+    text-align: center;
+  }
+
+  .PerguntaF_container p1{
+    font-size: 2rem;
+    padding: 2%;
+    text-align: center;
+  }
+ 
+
+  
+  .pergunta {
+    background-color: #ffffff;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(75, 198, 205, 0.929);
+    transition: background-color 0.3s, transform 0.3s;
+    flex-basis: calc(50% - 10px);
+    margin-bottom: 50px;
+  }
+  
+  .pergunta:hover {
+    background-color: #ffffff66;
+    transform: translateY(-3px);
+  }
+  
+  .pergunta__titulo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    cursor: pointer;
+    
+  
+  }
+  
+  .pergunta__titulo h3 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .pergunta__titulo span {
+    font-size: 4rem;
+    margin-left: 6%;
+    color: #5f12ef;
+  }
+
+  .span{
+    font-size: 6rem;
+  }
+  
+  .duvida {
+    width: 110px;
+    height: auto;
+    margin-right: 12px;
+  }
+
+  .categoria-buttons {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    margin-left: -13%;
+  }
+  
+  .categoria-buttons button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #30947c;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 5%;
+  }
+  
+  .categoria-buttons button:hover {
+    background-color: #267e68;
+  }
+  .pergunta__resposta li {
+    padding: 0 15px 15px 15px;
+    margin: 0;
+    font-size: 1.5rem;
+    color: #555;
+    text-align: justify;
+  }
+
+}
+
+

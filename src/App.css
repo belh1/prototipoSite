@@ -1,0 +1,60 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body{
+  font-family: var(--font-name);
+}
+
+
+section{
+  padding: 50px 0px;
+}
+
+a{
+  text-decoration: none;
+  color: unset;
+}
+
+a:houver{
+  color: unset;
+}
+
+ul{
+  list-style: none;
+}
+
+
+.container{
+  width: 1140px;
+  padding: 0px 15px;
+  margin: auto;
+}
+
+.section__title{
+  color: var(--heading-color);
+  font-weight: 700;
+}
+
+
+body {
+  background-image: url(img/iconeS.png), linear-gradient(#d2ead4, #d2f7f5, #d2f7f5, #dff9e3); /* Adiciona a imagem de fundo e o gradiente linear */
+  background-position: center center; /* Centraliza a imagem de fundo */
+  background-color: #d2f7f5; /* Define uma cor de fundo */
+  background-color: rgba(210, 234, 212, 0.0.1); /* Define uma cor de fundo com transparência */
+  background-size: 90em; 
+}
+
+
+
+
+html{
+  scroll-behavior: smooth;
+  position: absolute;
+  left: 15%;
+}
